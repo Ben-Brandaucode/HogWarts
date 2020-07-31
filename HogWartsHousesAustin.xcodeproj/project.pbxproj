@@ -14,6 +14,8 @@
 		BF7F500F24D3936A00D4765B /* HogWartsHousesAustin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF7F500D24D3936A00D4765B /* HogWartsHousesAustin.xcdatamodeld */; };
 		BF7F501124D3936E00D4765B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7F501024D3936E00D4765B /* Assets.xcassets */; };
 		BF7F501424D3936E00D4765B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7F501224D3936E00D4765B /* LaunchScreen.storyboard */; };
+		BF7F502124D3998B00D4765B /* hogWartsHouse + Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F502024D3998B00D4765B /* hogWartsHouse + Convenience.swift */; };
+		BF7F502324D39A5300D4765B /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F502224D39A5300D4765B /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		BF7F501024D3936E00D4765B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF7F501324D3936E00D4765B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF7F501524D3936E00D4765B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7F502024D3998B00D4765B /* hogWartsHouse + Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "hogWartsHouse + Convenience.swift"; sourceTree = "<group>"; };
+		BF7F502224D39A5300D4765B /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +62,26 @@
 		BF7F500324D3936A00D4765B /* HogWartsHousesAustin */ = {
 			isa = PBXGroup;
 			children = (
-				BF7F500424D3936A00D4765B /* AppDelegate.swift */,
-				BF7F500624D3936A00D4765B /* SceneDelegate.swift */,
+				BF7F501D24D3985A00D4765B /* New Group */,
 				BF7F500824D3936A00D4765B /* ViewController.swift */,
 				BF7F500A24D3936A00D4765B /* Main.storyboard */,
-				BF7F501024D3936E00D4765B /* Assets.xcassets */,
 				BF7F501224D3936E00D4765B /* LaunchScreen.storyboard */,
-				BF7F501524D3936E00D4765B /* Info.plist */,
 				BF7F500D24D3936A00D4765B /* HogWartsHousesAustin.xcdatamodeld */,
+				BF7F502024D3998B00D4765B /* hogWartsHouse + Convenience.swift */,
+				BF7F502224D39A5300D4765B /* CoreDataStack.swift */,
 			);
 			path = HogWartsHousesAustin;
+			sourceTree = "<group>";
+		};
+		BF7F501D24D3985A00D4765B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				BF7F500424D3936A00D4765B /* AppDelegate.swift */,
+				BF7F500624D3936A00D4765B /* SceneDelegate.swift */,
+				BF7F501024D3936E00D4765B /* Assets.xcassets */,
+				BF7F501524D3936E00D4765B /* Info.plist */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF7F500924D3936A00D4765B /* ViewController.swift in Sources */,
+				BF7F502124D3998B00D4765B /* hogWartsHouse + Convenience.swift in Sources */,
 				BF7F500F24D3936A00D4765B /* HogWartsHousesAustin.xcdatamodeld in Sources */,
+				BF7F502324D39A5300D4765B /* CoreDataStack.swift in Sources */,
 				BF7F500524D3936A00D4765B /* AppDelegate.swift in Sources */,
 				BF7F500724D3936A00D4765B /* SceneDelegate.swift in Sources */,
 			);
@@ -290,7 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73V52F7L32;
-				INFOPLIST_FILE = HogWartsHousesAustin/Info.plist;
+				INFOPLIST_FILE = HogWartsHousesAustin/resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73V52F7L32;
-				INFOPLIST_FILE = HogWartsHousesAustin/Info.plist;
+				INFOPLIST_FILE = HogWartsHousesAustin/resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
