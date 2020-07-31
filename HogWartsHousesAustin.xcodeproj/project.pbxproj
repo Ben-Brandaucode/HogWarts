@@ -16,6 +16,9 @@
 		BF7F501424D3936E00D4765B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7F501224D3936E00D4765B /* LaunchScreen.storyboard */; };
 		BF7F502124D3998B00D4765B /* hogWartsHouse + Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F502024D3998B00D4765B /* hogWartsHouse + Convenience.swift */; };
 		BF7F502324D39A5300D4765B /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F502224D39A5300D4765B /* CoreDataStack.swift */; };
+		BF7F502824D39DAA00D4765B /* houseGuessControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F502724D39DAA00D4765B /* houseGuessControler.swift */; };
+		BF7F502A24D3A89800D4765B /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F502924D3A89800D4765B /* MainTableViewController.swift */; };
+		BF7F502C24D3AC2E00D4765B /* HouseGuessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F502B24D3AC2E00D4765B /* HouseGuessTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		BF7F501524D3936E00D4765B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF7F502024D3998B00D4765B /* hogWartsHouse + Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "hogWartsHouse + Convenience.swift"; sourceTree = "<group>"; };
 		BF7F502224D39A5300D4765B /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		BF7F502724D39DAA00D4765B /* houseGuessControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = houseGuessControler.swift; sourceTree = "<group>"; };
+		BF7F502924D3A89800D4765B /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		BF7F502B24D3AC2E00D4765B /* HouseGuessTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseGuessTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,8 @@
 		BF7F500324D3936A00D4765B /* HogWartsHousesAustin */ = {
 			isa = PBXGroup;
 			children = (
-				BF7F501D24D3985A00D4765B /* New Group */,
+				BF7F502424D39D5C00D4765B /* New Group1 */,
+				BF7F501D24D3985A00D4765B /* Controllers */,
 				BF7F500824D3936A00D4765B /* ViewController.swift */,
 				BF7F500A24D3936A00D4765B /* Main.storyboard */,
 				BF7F501224D3936E00D4765B /* LaunchScreen.storyboard */,
@@ -73,15 +80,41 @@
 			path = HogWartsHousesAustin;
 			sourceTree = "<group>";
 		};
-		BF7F501D24D3985A00D4765B /* New Group */ = {
+		BF7F501D24D3985A00D4765B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BF7F502624D39D7400D4765B /* views */,
+				BF7F502524D39D7000D4765B /* model Controller */,
 				BF7F500424D3936A00D4765B /* AppDelegate.swift */,
 				BF7F500624D3936A00D4765B /* SceneDelegate.swift */,
 				BF7F501024D3936E00D4765B /* Assets.xcassets */,
 				BF7F501524D3936E00D4765B /* Info.plist */,
 			);
-			path = "New Group";
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BF7F502424D39D5C00D4765B /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		BF7F502524D39D7000D4765B /* model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF7F502724D39DAA00D4765B /* houseGuessControler.swift */,
+			);
+			path = "model Controller";
+			sourceTree = "<group>";
+		};
+		BF7F502624D39D7400D4765B /* views */ = {
+			isa = PBXGroup;
+			children = (
+				BF7F502924D3A89800D4765B /* MainTableViewController.swift */,
+				BF7F502B24D3AC2E00D4765B /* HouseGuessTableViewCell.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +190,10 @@
 			files = (
 				BF7F500924D3936A00D4765B /* ViewController.swift in Sources */,
 				BF7F502124D3998B00D4765B /* hogWartsHouse + Convenience.swift in Sources */,
+				BF7F502824D39DAA00D4765B /* houseGuessControler.swift in Sources */,
+				BF7F502C24D3AC2E00D4765B /* HouseGuessTableViewCell.swift in Sources */,
 				BF7F500F24D3936A00D4765B /* HogWartsHousesAustin.xcdatamodeld in Sources */,
+				BF7F502A24D3A89800D4765B /* MainTableViewController.swift in Sources */,
 				BF7F502324D39A5300D4765B /* CoreDataStack.swift in Sources */,
 				BF7F500524D3936A00D4765B /* AppDelegate.swift in Sources */,
 				BF7F500724D3936A00D4765B /* SceneDelegate.swift in Sources */,

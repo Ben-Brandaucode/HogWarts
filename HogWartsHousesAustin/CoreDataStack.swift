@@ -12,14 +12,17 @@ import CoreData
 
 class  CoreDataStack{
     static let container: NSPersistentContainer = {
-        let container = NSPersistentContainer(name: "hogWartshousesAustin")
+        
+        let container = NSPersistentContainer(name: "HogWartshousesAustin")
         container.loadPersistentStores { (storedescription, error) in
             if let error = error{
-                print(" Error im\(error.localizederror)")
+              print("Error in \(#function) : \(error.localizedDescription) \n---\n \(error)")
                 
             }
-        }
-    }return container
+    }
+    
+    return container
+    
 }()
 static var context: NSManagedObjectContext{ return container.viewContext}
 
